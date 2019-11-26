@@ -1,0 +1,5 @@
+server:
+    port: 9902
+
+cc:
+    msg: This message is loaded from cloud configuration server
