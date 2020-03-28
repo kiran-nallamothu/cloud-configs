@@ -1,0 +1,12 @@
+1) Loading multiple profiles --Done
+2) When cloud configuration server is down -- Done(It won't impact the running clients but new commits will not reflect)
+3) Git repository Authentication possibilities in configuration server
+	-- Using http url with username and password --Done
+	-- Using SSH Configuration(Recommended) --TODO
+4) What is the polling interval to pull updated commits from repository.
+5) Check the possibilities of using @Refreshscope at bean level --TODO
+6) Write listener(Java configuration at service registry level) to call refresh service for all client applications(Cloud bus). --TODO
+7) Override the default configurations(bootstrap.properties) -- TODO
+8) Configuration server is not detecting yaml files --TODO
+9) If client application is not matched then matched profiles will load
+
